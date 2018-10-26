@@ -1,4 +1,5 @@
 const SampleNFTs = artifacts.require('SampleNFTs');
+const SampleToken = artifacts.require('SampleToken');
 const RootChain = artifacts.require('RootChain');
 
 module.exports = async function(deployer, network, accounts) {
@@ -10,6 +11,10 @@ module.exports = async function(deployer, network, accounts) {
     await deployer.deploy(SampleNFTs, root.address);
     const sampleNFTs = await SampleNFTs.deployed();
     console.log(`SampleNFTs deployed at address: ${sampleNFTs.address}`);
+
+    await deployer.deploy(SampleToken);
+    const sampleToken = await SampleToken.deployed();
+    console.log(`SampleToken deployed at address: ${sampleToken.address}`);
   });
 };
 
