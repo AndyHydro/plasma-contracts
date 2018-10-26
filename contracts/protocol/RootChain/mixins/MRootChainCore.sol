@@ -2,10 +2,10 @@ pragma solidity 0.4.24;
 
 import "openzeppelin-solidity/contracts/math/SafeMath.sol";
 
-import "../../../libraries/SafeMath/SafeMath64.sol";
-import "../../../libraries/Transaction/Transaction.sol";
-import "../../../libraries/ECVerify.sol";
-import "../../../libraries/ChallengeLib.sol";
+import "../../../Libraries/SafeMath/SafeMath64.sol";
+import "../../../Libraries/Transaction/Transaction.sol";
+import "../../../Libraries/ECVerify.sol";
+import "../../../Libraries/ChallengeLib.sol";
 
 import "../libs/LibChildChain.sol";
 

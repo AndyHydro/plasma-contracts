@@ -1,6 +1,6 @@
 pragma solidity 0.4.24;
 
-import "../../libraries/Transaction/Transaction.sol";
+import "../../Libraries/Transaction/Transaction.sol";
 
 import "./mixins/MRootChainCore.sol";
 import "./mixins/MTransactionChecker.sol";

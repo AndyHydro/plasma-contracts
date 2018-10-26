@@ -36,7 +36,7 @@
     "build": "yarn run clean && truffle compile",
     "deploy": "truffle migrate --reset --network development",
     "deploy:rinkeby": "truffle migrate --reset --network rinkeby",
-    "test": "truffle compile --reset && truffle test",
+    "test": "yarn blockchain:start && truffle compile --reset && truffle test",
     "test:gas": "GAS_REPORTER=true yarn test",
     "lint": "$(yarn bin)/solium -d ./contracts",
     "lint:fix": "$(yarn bin)/solium -d ./contracts --fix"
