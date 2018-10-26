@@ -17,7 +17,7 @@
 
 These contracts are [live on Rinkeby](https://rinkeby.etherscan.io/address/0x40af244c94e679aebf897512720a41d843954a29) and are being actively used on the Elph Network Testnet.
 
-Further interactions with these contracts and the Elph Network can be done using the [Block Explorer](https://explorer.elph.com) or the [Plasma Demo](https://demo.elph.com), which both showcase the power a plasma network can have as a layer-2 solution. 
+Further interactions with these contracts and the Elph Network can be done using the [Block Explorer](https://explorer.elph.com) or the [Plasma Demo](https://demo.elph.com), which both showcase the power a plasma network can have as a layer-2 solution.
 
 ## Key Features
 
@@ -157,13 +157,12 @@ More tests will be added to this repository over time.
 
 We're working on improving these contracts with the newest research coming out (including adding Plasma Debit / XT / Cashflow).
 
-We're also looking to release our side chain implementation to allow for full local development 
+We're also looking to release our side chain implementation to allow for full local development.
 
 ## Related
 
-[elphnetwork/elph-sdk](https://github.com/elphnetwork/elph-sdk) - Elph Javascript SDK to communicate with these contracts.
-
-[elphnetwork/block-explorer](https://github.com/elphnetwork/block-explorer) - Elph Block Explorer that shows the testnet using these contracts on Rinkeby.
+- [elphnetwork/elph-sdk](https://github.com/elphnetwork/elph-sdk): Elph Javascript SDK to communicate with these contracts.
+- [elphnetwork/block-explorer](https://github.com/elphnetwork/block-explorer): Elph Block Explorer that shows the Elph Plasma Chain testnet using these contracts on Rinkeby.
 
 ## Contributing
 
@@ -171,7 +170,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## Contact
 
-Interested in getting touch with the Elph team? Feel free to [join our telegram](http://t.me/elphnetwork) to ask any questions or share any feedback!
+Interested in getting touch with the Elph team? Feel free to [join our Telegram](http://t.me/elphnetwork) to ask any questions or share any feedback!
 
 ## Acknowledgements
 

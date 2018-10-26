@@ -1,11 +1,11 @@
 {
-  "name": "plasma-cash",
+  "name": "plasma-contracts",
   "version": "1.0.0",
   "description": "Elph Network's Plasma Cash root chain implementation.",
   "main": "truffle.js",
-  "repository": "https://github.com/elphnetwork/plasma-cash",
+  "repository": "https://github.com/elphnetwork/plasma-contracts",
   "author": "Elph Network",
-  "license": "MIT",
+  "license": "GPLv2",
   "private": true,
   "dependencies": {
     "@babel/core": "^7.1.2",
@@ -49,9 +49,7 @@
   "lint-staged": {
     "*.sol": [
       "solium --fix --file",
-      "bash ./scripts/abigen-go-rootchain.sh",
-      "bash ./scripts/abigen-go-samplenfts.sh",
-      "cd .. && git add"
+      "git add"
     ]
   }
 }
