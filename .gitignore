@@ -55,3 +55,7 @@ build/
 # Ganache output
 ganache_run.log
 ganache.pid
+
+# Code coverage
+coverage.json
+coverage/*

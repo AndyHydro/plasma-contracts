@@ -7,6 +7,7 @@
 [![Truffle Version](https://img.shields.io/badge/truffle-v4.1.14-green.svg)](https://truffleframework.com/)
 [![SolC Version](https://img.shields.io/badge/solidity-v0.4.24-green.svg)](https://solidity.readthedocs.io/en/v0.4.24/installing-solidity.html)
 [![Travis (.org)](https://img.shields.io/travis/elphnetwork/plasma-contracts.svg)](https://travis-ci.org/elphnetwork/plasma-contracts)
+[![Codecov](https://img.shields.io/codecov/c/github/elphnetwork/plasma-contracts.svg)](https://codecov.io/gh/elphnetwork/plasma-contracts)
 [![Telegram](https://img.shields.io/badge/telegram-join%20chat-blue.svg)](https://t.me/elphnetwork)
 
 # Elph Network Plasma Contracts
