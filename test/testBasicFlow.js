@@ -124,6 +124,8 @@ contract('Plasma Cash - Basic Flow', async function(accounts) {
       await plasma.finalizeExits({ from: random_guy2 });
       for (let i in UTXO) {
         let aUTXO = UTXO[i];
+        await plasma.getExit(aUTXO.slot)
+        await plasma.getBlockRoot(aUTXO.block)
         await plasma.withdraw(aUTXO.slot, { from: alice });
       }
 
